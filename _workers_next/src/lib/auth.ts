@@ -5,7 +5,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             {
                             id: "linuxdo",
                             name: "Linux DO",
-                            type: "oidc",
+                            type: "oidc"
                             issuer: "https://connect.linux.do/",
                             clientId: process.env.OAUTH_CLIENT_ID,
                             clientSecret: process.env.OAUTH_CLIENT_SECRET,
